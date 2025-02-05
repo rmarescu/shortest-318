@@ -1,0 +1,545 @@
+{
+  "d963e24e043efedb9cd117dfb11ec3ac5a841411957e7775b41b6ccb8cc5e589": {
+    "data": {
+      "steps": [
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_016dNf2YxzTSeKG2jj2D1mjA",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786834037
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01K9L3jTnBdm6Kzh3jUfYi71",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                690,
+                21
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (690, 21)",
+          "result": "Mouse moved to (690, 21)",
+          "extras": {
+            "componentStr": "<input name=\"search_query\" type=\"text\" role=\"combobox\" placeholder=\"Search\">"
+          },
+          "timestamp": 1738786837942
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_019oYg2PP1Fu5ThqZ5DDQ1Lf",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (690, 21)",
+          "result": "left_click at (690, 21)",
+          "extras": {},
+          "timestamp": 1738786842198
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_0144afUnQpbjWYxoJ5A6G6ss",
+            "name": "computer",
+            "input": {
+              "action": "type",
+              "text": "cute puppies"
+            }
+          },
+          "reasoning": "Typed: cute puppies",
+          "result": "Typed: cute puppies",
+          "extras": {},
+          "timestamp": 1738786846923
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01FveQc5Yihexj3FSma4dm3V",
+            "name": "computer",
+            "input": {
+              "action": "key",
+              "text": "Return"
+            }
+          },
+          "reasoning": "Pressed key: Return",
+          "result": "Pressed key: Return",
+          "extras": {},
+          "timestamp": 1738786851057
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01WMZeU1Q3Y7vhMdrb66WhXD",
+            "name": "sleep",
+            "input": {
+              "action": "sleep",
+              "duration": 3000
+            }
+          },
+          "reasoning": "Finished waiting for 3 seconds",
+          "result": "Finished waiting for 3 seconds",
+          "extras": {},
+          "timestamp": 1738786857329
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01LDPt4GJPhSnB2J5spZrVHW",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786860312
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01JTPPSC353LHtDKBFp5Rh58",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                534,
+                427
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (534, 427)",
+          "result": "Mouse moved to (534, 427)",
+          "extras": {
+            "componentStr": "<video></video>"
+          },
+          "timestamp": 1738786865454
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01HrkepJHHU2wj83BNw6c3Nq",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (534, 427)",
+          "result": "left_click at (534, 427)",
+          "extras": {},
+          "timestamp": 1738786869047
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01VBnjxsmX1QNHZRDtjnfbHt",
+            "name": "sleep",
+            "input": {
+              "action": "sleep",
+              "duration": 3000
+            }
+          },
+          "reasoning": "Finished waiting for 3 seconds",
+          "result": "Finished waiting for 3 seconds",
+          "extras": {},
+          "timestamp": 1738786875593
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01DAfSDEKtpNCfGEYEhn82UU",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786878737
+        }
+      ],
+      "timestamp": 1738786882460
+    }
+  },
+  "5d20a0d355e4d0a974d6fa8667eec1c4b108077c6d30b50f9378dc46235cc90b": {
+    "data": {
+      "steps": [
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01Mk376PkepdULk5FUTAX9Wx",
+            "name": "navigate",
+            "input": {
+              "action": "navigate",
+              "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+          },
+          "reasoning": "Navigated to https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "result": "Navigated to https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "extras": {},
+          "timestamp": 1738786887952
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01G93wZzAn4Wpv3DBMNtpDk2",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786891357
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_015mKrdgK6Y9ZVmkrocjLn2u",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                914,
+                587
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (914, 587)",
+          "result": "Mouse moved to (914, 587)",
+          "extras": {
+            "componentStr": "<video></video>"
+          },
+          "timestamp": 1738786896208
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01UjidrbVLiK5kGvTUzez2z9",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (914, 587)",
+          "result": "left_click at (914, 587)",
+          "extras": {},
+          "timestamp": 1738786899412
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01Prr5jH8shRrymKDiY9dDzh",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786903262
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01XcUsetShLVwCfzx1r1Jjaq",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                889,
+                537
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (889, 537)",
+          "result": "Mouse moved to (889, 537)",
+          "extras": {
+            "componentStr": "<video></video>"
+          },
+          "timestamp": 1738786907538
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01SneyQgzcq2kJ6UD6pS63KM",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (889, 537)",
+          "result": "left_click at (889, 537)",
+          "extras": {},
+          "timestamp": 1738786910914
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_013nV3vsZfCoEEdPmTyXcKA9",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                889,
+                400
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (889, 400)",
+          "result": "Mouse moved to (889, 400)",
+          "extras": {
+            "componentStr": "<video></video>"
+          },
+          "timestamp": 1738786914941
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_016BGct4DHtNVs7vdZXX5ju4",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (889, 400)",
+          "result": "left_click at (889, 400)",
+          "extras": {},
+          "timestamp": 1738786918059
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01GC565poBWj5X7KuhszpBJW",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                908,
+                507
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (908, 507)",
+          "result": "Mouse moved to (908, 507)",
+          "extras": {
+            "componentStr": "<video></video>"
+          },
+          "timestamp": 1738786922092
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_019fNAmbNUdiBYsfz61kAV9G",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (908, 507)",
+          "result": "left_click at (908, 507)",
+          "extras": {},
+          "timestamp": 1738786925494
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_011r8jqtLv6h5DQ8zQ1PJJiM",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                908,
+                350
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (908, 350)",
+          "result": "Mouse moved to (908, 350)",
+          "extras": {
+            "componentStr": "<video></video>"
+          },
+          "timestamp": 1738786929075
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01NbQo8we5pKgu4fW6vgyMc6",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (908, 350)",
+          "result": "left_click at (908, 350)",
+          "extras": {},
+          "timestamp": 1738786932296
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01Q6313xLfwsScMyL84W7z9i",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                878,
+                447
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (878, 447)",
+          "result": "Mouse moved to (878, 447)",
+          "extras": {
+            "componentStr": "<video></video>"
+          },
+          "timestamp": 1738786936369
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01N9itigRSLCy49tPvPTcmwy",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (878, 447)",
+          "result": "left_click at (878, 447)",
+          "extras": {},
+          "timestamp": 1738786939617
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_012juDoSVXvWxiWg5b7Qh1vp",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786942977
+        }
+      ],
+      "timestamp": 1738786948383
+    }
+  },
+  "1ba91e851905764e203c73ac44a5465aa5d384c37c245b5b0233e01e4c9da95c": {
+    "data": {
+      "steps": [
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_012ht3b6A2Tc6jAsmnu9oehr",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786952281
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01NqKs848KUxnyGv9qbVJLeY",
+            "name": "navigate",
+            "input": {
+              "action": "navigate",
+              "url": "https://www.youtube.com/@TED"
+            }
+          },
+          "reasoning": "Navigated to https://www.youtube.com/@TED",
+          "result": "Navigated to https://www.youtube.com/@TED",
+          "extras": {},
+          "timestamp": 1738786957338
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01KCUxrhfyD9dNDoNKK16bLS",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786961179
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01NQcrjCKTF7Wwy5fnBegkjy",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                404,
+                375
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (404, 375)",
+          "result": "Mouse moved to (404, 375)",
+          "extras": {
+            "componentStr": "<div><svg><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z\"></path></svg></div>"
+          },
+          "timestamp": 1738786966202
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01BQNQeWNLq6zmE4fEZwfa5H",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (404, 375)",
+          "result": "left_click at (404, 375)",
+          "extras": {},
+          "timestamp": 1738786970062
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01Qr1Pezu1w9o8E7W9FdWUdF",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738786975022
+        }
+      ],
+      "timestamp": 1738786981191
+    }
+  }
+}
